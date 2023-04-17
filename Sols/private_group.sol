@@ -1,6 +1,6 @@
 pragma solidity ^0.8.0;
 
-/* This contract defines a private group chat where only members of the group can send and receive messages. The members mapping keeps track of the members of the group, and the onlyMember modifier ensures that only members of the group can call certain functions.
+/* This contract defines a- private group chat where only members of the group can send and receive messages. The members mapping keeps track of the members of the group, and the onlyMember modifier ensures that only members of the group can call certain functions.
 
 The addMember function allows the owner of the contract (who can be set during deployment) to add new members to the group.
 
